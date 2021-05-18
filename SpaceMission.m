@@ -1,4 +1,4 @@
-clear all
+clear
 close all
 
 % Data and assumptions 
@@ -21,7 +21,6 @@ mum = 4.283*10^13; % [m^3s^(-2)]
 aleo = 500*10^3; % [m] altitude LEO
 almo = 300*10^3; % [m] altitude LMO
 
-%a0=(Rmo-aleo-almo+Reo)/2;
 a0=(Rmo+Reo)/2;
 
 M = [];
